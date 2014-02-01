@@ -1,0 +1,25 @@
+This is a list of possible common mistakes that may be found in the student's code.
+
+Input:
+-wrong type of input
+-wrong number of inputs
+Output:
+-wrong output value
+-wrong output type
+-no output (return None)
+-unmodified output (returns input)
+-print statements in code
+Syntax:
+-improper indentantion
+-case-sensitive variables
+-forgot a colon
+-mixed variable and function names
+Crash:
+-infinite loop
+
+Solutions
+-For improper syntax, the program will most likely crash. Therefore, in the general case, I should only need to return a crash report.
+
+Sources Consulted:
+https://wiki.python.org/moin/BeginnerErrorsWithPythonProgramming
+http://www.onlamp.com/pub/a/python/2004/02/05/learn_python.html
