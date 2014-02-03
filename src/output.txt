@@ -1,4 +1,7 @@
-Test cases failed. Error found in student code.Alistair Tenpenny
+Test cases failed:
+Sarah Lyons
+John Henry Eden
+Alistair Tenpenny
 Three Dog
 Colin Moriarty
 Moira Brown
@@ -9,3 +12,4 @@ Crazy Wolfgang
 One Two-Three Four
 One-Two Three-Four Five-Six
 
+Test cases failed. Error found in student code.

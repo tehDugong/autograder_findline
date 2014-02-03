@@ -51,15 +51,15 @@ def run(inputs, correct_function, student_function):
 
 
     if not output_type(inputs, correct_function, student_function):
-        f = open('output.txt', 'w')
+        f = open('output.txt', 'a')
         f.write("Test cases failed. Student outputs wrong variable type")
         return False
     elif output_unmodified(inputs, student_function):
-        f = open('output.txt', 'w')
+        f = open('output.txt', 'a')
         f.write("Test cases failed. Student returns unmodified input")
         return False
     else:
-        f = open('output.txt', 'w')
-        f.write("Test cases failed. Error found in student code.")
+        f = open('output.txt', 'a')
+        f.write("Test cases failed. Error(s) found in student code.\n")
         return False
     return False
