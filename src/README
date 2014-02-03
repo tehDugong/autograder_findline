@@ -1,2 +1,8 @@
-1) Copy the code to be graded into code.py
-2) Run autograder.py
+
+1) Copy the correct version of the code into tests_correct.py
+2) Copy the code to be graded into code.py
+3) Configure autograder.py. You should configure A) the name of the function being graded and B) the test inputs
+to be used
+    3.1) Configure tests.py if you would like to add more sophisticated unit tests
+4) Run autograder.py
+5) Check output.txt for details

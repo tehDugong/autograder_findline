@@ -1,6 +1,8 @@
 __author__ = 'Vincent'
 
 def abbreviate_name(full_name):
+    return full_name
+    #return full_name
     names = full_name.split()
     abbrev = ""
 
@@ -9,4 +11,5 @@ def abbreviate_name(full_name):
         abbrev += names[i][0] +". "
         i += 1
     abbrev += names[i]
+
     return abbrev

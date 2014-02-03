@@ -1,0 +1,4 @@
+this is a testTraceback (most recent call last):
+  File "/home/vincent/IdeaProjects/autograder_findline/tests/write_test.py", line 9, in <module>
+    1/0
+ZeroDivisionError: integer division or modulo by zero
